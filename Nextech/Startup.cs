@@ -31,9 +31,7 @@ namespace Nextech
         {
             services.AddSingleton<IHackerNewsService, HackerNewsService>();
             services.AddSingleton<IHackerNewsDataProvider, HackerNewsDataProvider>();
-            services.AddMvc(options =>
-                            options.EnableEndpointRouting = false)
-                            .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc();
             services.AddMemoryCache();
         }
 

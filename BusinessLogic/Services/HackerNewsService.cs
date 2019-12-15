@@ -35,17 +35,5 @@ namespace BusinessLogic.Services
             return tasks.Select(x => new NewsStory(x.Result)).ToList();
         }
 
-        public NewsStory GetNewsStoryById(int storyId)
-        {
-            var contract = _hackerNewsProvider.GetItemByIdAsync(storyId).Result;
-            var story = new NewsStory(contract);
-            
-            /*contract.kids.ForEach(x => story.Comments.Add(
-                new Comment(_hackerNewsProvider.GetItemByIdAsync(x).Result))
-            );*/
-
-
-            return story;
-        }
     }
 }

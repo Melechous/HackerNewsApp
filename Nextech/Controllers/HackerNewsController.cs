@@ -34,18 +34,5 @@ namespace Nextech.Controllers
             }
         }
 
-        /*[HttpGet("ViewStory/{storyId}")]
-        public IActionResult ViewStory(int storyId)
-        {
-            try
-            {
-                return View(_hackerNewsService.GetNewsStoryById(storyId));
-            }
-            catch (Exception e)
-            {
-                return StatusCode(500, e);
-            }
-        }*/
-
     }
 }

@@ -9,7 +9,6 @@ namespace BusinessLogic.Interfaces
     public interface IHackerNewsService
     {
         public Task<List<NewsStory>> GetTopNewsStoryIdsAsync(int limit);
-        public NewsStory GetNewsStoryById(int storyId);
         
     }
 }
