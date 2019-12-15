@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BusinessLogic.Service_Contracts.NewsStory>
+
+@{
+    ViewData["Title"] = "Hacker News";
+}
+
+<h1>Top Stories</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @*
+        @Html.ActionLink(item.Title,
+                         "ViewStory",
+                         "HackerNews",
+                         new { storyId = item.Id })
+        by @item.Author
+                        *@
+
+                <a href="@item.StoryURL">@item.Title</a> by @item.Author
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
