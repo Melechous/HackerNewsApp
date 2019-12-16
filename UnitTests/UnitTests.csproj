@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
     <ProjectReference Include="..\DataProviders\DataProviders.csproj" />
+    <ProjectReference Include="..\Nextech\Nextech.csproj" />
   </ItemGroup>
 
 </Project>

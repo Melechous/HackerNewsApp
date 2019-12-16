@@ -27,6 +27,9 @@ namespace UnitTests.Mock_Classes
                 case "hackerNewsURL":
                     return new Mock_ConfigurationSection("https://hacker-news.firebaseio.com/");
 
+                case "topStoryLimit":
+                    return new Mock_ConfigurationSection("20");
+
                 default:
                     return null;
             }
