@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>Grid Template · Bootstrap</title>
+    <title>Hacker News - Top Stories</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/grid/">
 
@@ -66,41 +66,10 @@
         <h1>Top Stories</h1>
 
 
-        @*<table>
-                <thead>
-                    <tr>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                    <tr>
-                        <td class="themed-grid-col">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <p><a href="@item.StoryURL">@item.Title</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>by @item.Author</p>
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </td>
-                    </tr>
-                    }
-                </tbody>
-            </table>*@
-
-
         @foreach (var item in Model)
         {
             <div class="row mb-3">
-                <div class="col-lg-4 themed-grid-col">
+                <div class="col-lg-4 themed-grid-col" style="flex: 100%; max-width: 100%;" >
                     <p class="titleSection"><a href="@item.StoryURL">@item.Title</a></p>
                     <p class="authorSection">by @item.Author</p>
                 </div>
