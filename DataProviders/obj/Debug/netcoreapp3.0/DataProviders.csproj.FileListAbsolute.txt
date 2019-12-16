@@ -1,0 +1,7 @@
+C:\Users\pmelech\source\repos\Nextech\DataProviders\bin\Debug\netcoreapp3.0\DataProviders.deps.json
+C:\Users\pmelech\source\repos\Nextech\DataProviders\bin\Debug\netcoreapp3.0\DataProviders.dll
+C:\Users\pmelech\source\repos\Nextech\DataProviders\bin\Debug\netcoreapp3.0\DataProviders.pdb
+C:\Users\pmelech\source\repos\Nextech\DataProviders\obj\Debug\netcoreapp3.0\DataProviders.AssemblyInfoInputs.cache
+C:\Users\pmelech\source\repos\Nextech\DataProviders\obj\Debug\netcoreapp3.0\DataProviders.AssemblyInfo.cs
+C:\Users\pmelech\source\repos\Nextech\DataProviders\obj\Debug\netcoreapp3.0\DataProviders.dll
+C:\Users\pmelech\source\repos\Nextech\DataProviders\obj\Debug\netcoreapp3.0\DataProviders.pdb
