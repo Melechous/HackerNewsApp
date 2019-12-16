@@ -108,4 +108,3 @@ C:\Users\pmelech\source\repos\Nextech\Nextech\bin\Debug\netcoreapp3.1\System.Net
 C:\Users\pmelech\source\repos\Nextech\Nextech\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\pmelech\source\repos\Nextech\Nextech\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\pmelech\source\repos\Nextech\Nextech\obj\Debug\netcoreapp3.1\Nextech.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pmelech\source\repos\Nextech\Nextech\obj\Debug\netcoreapp3.1\Razor\Views\HackerNews\ViewStory.cshtml.g.cs
